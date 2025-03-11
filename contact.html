@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* Header */
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #00f2fe;
+        }
+
+        /* Contact Section */
+        .contact {
+            text-align: center;
+            padding: 100px 20px;
+            flex: 1;
+        }
+
+        .contact h2 {
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            font-size: 18px;
+        }
+
+        .contact a {
+            color: #ffffff;
+            font-size: 18px;
+            text-decoration: none;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: 0.3s;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .contact a:hover {
+            background: #00f2fe;
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header with Navigation Menu -->
+    <header>
+        <div class="logo">Contact Us</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Get in Touch</h2>
+        <p>Email us at:</p>
+        <a href="mailto:allgamer7172@gmail.com">allgamer7172@gmail.com</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>© 2025 Wikipedia 2 | Contact Us Anytime!</footer>
+
+</body>
+</html>
