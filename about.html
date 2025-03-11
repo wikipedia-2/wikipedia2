@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Wikipedia 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* Header */
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .developer {
+            font-size: 16px;
+            color: #00f2fe;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #00f2fe;
+        }
+
+        /* About Section */
+        .about-section {
+            text-align: center;
+            padding: 100px 20px;
+            flex: 1;
+        }
+
+        .about-section h2 {
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .about-section p {
+            font-size: 18px;
+            max-width: 800px;
+            margin: 10px auto;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer-dev {
+            font-size: 14px;
+            color: #00f2fe;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header with Navigation Menu -->
+    <header>
+        <div class="logo">About Wikipedia 2</div>
+        <div class="developer">Designed & Developed by Marcus</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <h2>About Wikipedia</h2>
+        <p>
+            Wikipedia is a free, web-based encyclopedia that allows users to create and edit articles collaboratively. 
+            Launched in 2001, it is one of the most visited websites worldwide, providing knowledge on a vast range of topics.
+        </p>
+        <p>
+            It is a non-profit platform operated by the **Wikimedia Foundation** and relies on volunteer contributions 
+            to keep information updated and accurate.
+        </p>
+        <h2>Disclaimer</h2>
+        <p>
+            **This website is a replica and simply embeds Wikipedia’s content.**  
+            We do not claim ownership or responsibility for any information displayed here.  
+            All content belongs to Wikipedia and the **Wikimedia Foundation**.
+        </p>
+        <p>
+            Our goal is only to provide easy access to Wikipedia’s knowledge in a different layout.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 Wikipedia 2 | Powered by Wikipedia  
+        <div class="footer-dev">Designed & Developed by Marcus</div>
+    </footer>
+
+</body>
+</html>
